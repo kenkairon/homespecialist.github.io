@@ -53,6 +53,8 @@ mover puede cambiar la LETRA de los LINK */
 nav{      
     display:inline;
     border-radius:10px;
+    position: relative;
+    height: 100%;
 }
 div{  
   display:inline-block;
