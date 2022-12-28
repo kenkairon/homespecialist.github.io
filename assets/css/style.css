@@ -50,11 +50,16 @@ mover puede cambiar la LETRA de los LINK */
 }
 
 /*TODOS LOS DIV DEBEN SER EN LINEA */
-nav{      
-    display:inline;
-    position: fixed;
-    border-radius:10px;
 
+nav{
+    display:inline;
+}
+
+.menu{
+   
+    
+    border-radius:20px;
+    
 }
 div{  
   display:inline-block;
@@ -62,6 +67,9 @@ div{
 ul{ 
   margin-top:5em;
   display:inline;
+}
+.ul a{
+    color: white
 }
 li{   
     display: inline;
@@ -82,6 +90,7 @@ a.dirigir{
     border:dashed 1px  #fff;
     border-radius: 3px;
 }
+
 .espaciolink{
     margin:25px;  
 }
@@ -144,9 +153,7 @@ footer p{
 .footer_config,p{
     margin:10px;
 }
-.ul a{
-    color: white
-}
+
 /* CONFIGURACIÓN DE CARUSELS BOTONES */
 .carousel-control-prev-icon,.carousel-control-next-icon{
     background-color:blue;
