@@ -52,6 +52,7 @@ mover puede cambiar la LETRA de los LINK */
 /*TODOS LOS DIV DEBEN SER EN LINEA */
 nav{      
     display:inline;
+    position: fixed;
 }
 div{  
   display:inline-block;
@@ -78,7 +79,6 @@ a.dirigir{
     border-color:  #10707f;
     border:dashed 1px  #fff;
     border-radius: 3px;
-}
 }
 .espaciolink{
     margin:25px;  
