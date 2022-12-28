@@ -52,6 +52,7 @@ mover puede cambiar la LETRA de los LINK */
 /*TODOS LOS DIV DEBEN SER EN LINEA */
 nav{      
     display:inline;
+    border-radius:10px;
 }
 div{  
   display:inline-block;
