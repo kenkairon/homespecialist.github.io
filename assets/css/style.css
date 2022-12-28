@@ -50,6 +50,7 @@ mover puede cambiar la LETRA de los LINK */
 }
 
 /*TODOS LOS DIV DEBEN SER EN LINEA */
+<<<<<<< HEAD
 
 nav{
     display:inline;
@@ -60,6 +61,13 @@ nav{
     
     border-radius:20px;
     
+=======
+nav{      
+    display:inline;
+    border-radius:10px;
+    position: relative;
+    height: 100%;
+>>>>>>> 538d41389a1090a77a2ed120573b040554e0704f
 }
 div{  
   display:inline-block;
