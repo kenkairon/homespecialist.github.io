@@ -25,61 +25,49 @@ h1,h2,p{
     border-top-left-radius: 34px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 34px;    
+    border-bottom-left-radius: 34px;
 }
 .card-img-top{
-    border:dashed 1px blue; 
+    border:dashed 1px blue;
     border-top-left-radius: 34px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 34px;  
+    border-bottom-left-radius: 34px;
 }
 /*mover Imagen */
-.imaghover:hover{ 
-   -webkit-transform:scale(0.8);
-   -moz-transform:scale(0.8);
-   -o-transform:scale(0.8);
-   -ms-transform:scale(0.8);
+.imaghover:hover{
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    -ms-transform:scale(0.8);
     transform:scale(0.8)
 }
-/*Es un pseudoelemnto para cambiar de color LOS LINK a 
+/*Es un pseudoelemnto para cambiar de color LOS LINK a
 mover puede cambiar la LETRA de los LINK */
 .mover{
-    color:white;   
+    color:white;
     padding:5px;
 }
 
 /*TODOS LOS DIV DEBEN SER EN LINEA */
-<<<<<<< HEAD
-
 nav{
-    display:inline;
-}
-
-.menu{
-   
-    
-    border-radius:20px;
-    
-=======
-nav{      
     display:inline;
     border-radius:10px;
     position: relative;
     height: 100%;
->>>>>>> 538d41389a1090a77a2ed120573b040554e0704f
+
 }
-div{  
-  display:inline-block;
+div{
+    display:inline-block;
 }
-ul{ 
-  margin-top:5em;
-  display:inline;
+ul{
+    margin-top:5em;
+    display:inline;
 }
 .ul a{
     color: white
 }
-li{   
+li{
     display: inline;
 }
 
@@ -90,7 +78,7 @@ a.mover{
     border:dashed 1px  #fff;
     border-radius: 5px;
     text-decoration-line:none;
-    
+
 }
 a.dirigir{
     color: #fff;
@@ -104,7 +92,7 @@ a.dirigir{
 }
 /* ARTICULO SOMOS */
 .article_somos{
-    text-align: center; 
+    text-align: center;
     border-radius: 10px;
     box-shadow: 4px 4px 4px 4px #000;
     transform:rotate(0deg);
@@ -118,7 +106,7 @@ a.dirigir{
 }
 /*IMPUT DEL FORMULARIO */
 .block1,input{
-    display:block;  
+    display:block;
 }
 
 .margen_boton_enviar{
@@ -137,7 +125,7 @@ section.fondo_formulario{
     box-shadow:1px 0px 13px 0px rgba(30, 125, 204, 0.72);
     margin-right:10px;
     margin-left:10px;
-    padding:5px;  
+    padding:5px;
     border-radius:5px;
 }
 /*IMPUT DEL FORMULARIO */
@@ -146,7 +134,7 @@ section.fondo_formulario{
 }
 /* CONFIGURACION DEL FOOTER DEL FOOTER */
 footer{
-background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 footer p{
     color: rgb(255, 255, 255);
@@ -155,7 +143,7 @@ footer p{
 .footer_config{
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px #000; 
+    box-shadow: 3px 3px 3px 3px #000;
 }
 /* CONFIGURACION DEL MARGEN DEL PIE DE PAGINA EN PARRAFO(p) */
 .footer_config,p{
@@ -169,9 +157,9 @@ footer p{
     box-shadow:0px 4px 12px 0px rgba(39, 103, 197, 0.75);
 }
 .ClaseImagenesSlider{   
-   border-radius: 23px;
-   border-bottom-left-radius: 90px;
-   border:dashed 1px blue;
+    border-radius: 23px;
+    border-bottom-left-radius: 90px;
+    border:dashed 1px blue;
 }
 
 
