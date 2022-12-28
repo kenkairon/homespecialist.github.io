@@ -55,9 +55,10 @@ nav{
     border-radius:10px;
     position: relative;
     height: 100%;
+}
 div{
     display:inline-block;
-}
+} 
 ul{
     margin-top:5em;
     display:inline;
