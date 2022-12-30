@@ -134,7 +134,7 @@ footer p{
 
 .ir-arriba {
 	display:none;
-	padding:15px;	
+	padding:15px;
     background: rgb(84,163,238); /* Old browsers */
     background: -moz-linear-gradient(45deg,  rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 72%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 72%); /* Chrome10-25,Safari5.1-6 */
@@ -147,6 +147,6 @@ footer p{
 	bottom:20px;
 	right:20px;
     border-radius:20px;
-    border:1px double white;   
+    border:1px double white;
 }
 
