@@ -21,7 +21,7 @@ h1,h2,p{
 
 }
 /*Clase de boostrap imagen corte pequeñ */
-.card{
+/* .card{
     border-top-left-radius: 34px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 18px;
@@ -33,14 +33,14 @@ h1,h2,p{
     border-top-right-radius: 60px;
     border-bottom-right-radius: 18px;
     border-bottom-left-radius: 34px;
-}
+} */
 /*mover Imagen */
 .imaghover:hover{
-    -webkit-transform:scale(0.8);
-    -moz-transform:scale(0.8);
-    -o-transform:scale(0.8);
-    -ms-transform:scale(0.8);
-    transform:scale(0.8)
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1)
 }
 /*Es un pseudoelemnto para cambiar de color LOS LINK a
 mover puede cambiar la LETRA de los LINK */
@@ -51,43 +51,10 @@ mover puede cambiar la LETRA de los LINK */
 
 /*TODOS LOS DIV DEBEN SER EN LINEA */
 nav{
-    display:inline;
     border-radius:10px;
-    position: relative;
+    position: fixed;
     height: 100%;
-}
-div{
-    display:inline-block;
-} 
-ul{
-    margin-top:5em;
-    display:inline;
-}
-.ul a{
-    color: white
-}
-li{
-    display: inline;
-}
-
-a.mover{
-    color: #fff;
-    background-color: #117a8b!important;
-    border-color:  #10707f;
-    border:dashed 1px  #fff;
-    border-radius: 5px;
-    text-decoration-line:none;
-
-}
-a.dirigir{
-    color: #fff;
-    border-color:  #10707f;
-    border:dashed 1px  #fff;
-    border-radius: 3px;
-}
-
-.espaciolink{
-    margin:25px;  
+    box-shadow: 1px 1px 1px 1px rgb(254,255,255);
 }
 /* ARTICULO SOMOS */
 .article_somos{
@@ -132,9 +99,6 @@ section.fondo_formulario{
     display:block;
 }
 /* CONFIGURACION DEL FOOTER DEL FOOTER */
-footer{
-    background-color: rgb(0, 0, 0);
-}
 footer p{
     color: rgb(255, 255, 255);
     }
@@ -142,25 +106,29 @@ footer p{
 .footer_config{
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px #000;
+    box-shadow: 1px 2px 1px 1px #000;
+    background-color:rgb(40,52,59);
 }
 /* CONFIGURACION DEL MARGEN DEL PIE DE PAGINA EN PARRAFO(p) */
 .footer_config,p{
     margin:10px;
 }
-
+.footerfechareloj{
+    color:white;
+}
 /* CONFIGURACIÓN DE CARUSELS BOTONES */
 .colores{
     background-color:rgb(35,64,127);
     border-radius:25px;
-    box-shadow:0px 4px 12px 0px rgba(219, 229, 244, 0.75);   
+    box-shadow:0px 4px 12px 0px rgba(219, 229, 244, 0.75);
     border: 1px double;
 }
 
-.ClaseImagenesSlider{   
+.ClaseImagenesSlider{
     border-radius: 25px;
     border-bottom-left-radius: 90px;
     border:dashed 1px blue;
     width:100%;
     height:50%;
 }
+

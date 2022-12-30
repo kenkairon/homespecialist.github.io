@@ -5,6 +5,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Home Specialist</title>
+      <link rel="icon" class="bi bi-house-door">
+      
+     
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/style.css" />
@@ -19,50 +22,45 @@
       <!-- Muy Pequeño <576 px col-->
         <section class="container-fluid" id="index">
           <!--Aqui Empieza el Menú de Navegación-->
-          <nav class="row navbar navbar-light menu" style="background-color: #e3f2fd;">
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12">
-                  <!--Logo -->
-                  <a href="index.html" class="col-3-lg col-3-md  col-md-auto btn btn-outline-primary">
-                    <i class="bi bi-house-door"></i>
-                    <b>Home Specialist</b>
-                    <i class="iconos1 bi bi-tools"></i>
-                  </a>
-                </div>
-                <div class="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-12">
-                  <ul>
-                      <li class="enlinea"><a href="#index" class="btn btn-outline-primary btn-sm"><i class="bi bi-house"></i><b> Inicio</b></a></li>
-                      <li class="enlinea"> <a href="#" class="btn btn-outline-dark btn-sm pr-6"><i class="bi bi-folder-plus"></i><b> Ingresar</b></a></li>
-                      <li class="enlinea"><a href="#contacto" class="btn btn-outline-success btn-sm pr-6"><i class="bi bi-person-bounding-box"></i><b> Contacto</b> </a></li>
-                      <li class="enlinea"><a href="#" class="btn btn-outline-danger btn-sm pr-6"><b>Necesita Ayuda</b><i class="bi bi-question-circle-fill"></i></a></li>
-                  </ul>
-                </div>
+          <nav class="row navbar navbar-expand-lg"  style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a href="index.html" class="col-3-lg col-3-md  col-md-auto btn btn-outline-primary imaghover">
+                <i class="bi bi-house-door"></i>
+                <b>Home Specialist</b>
+                <i class="iconos1 bi bi-tools"></i>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mover">
+                    <a href="#index" class="btn btn-outline-primary btn-sm imaghover"><i class="bi bi-house"></i><b> Inicio</b></a>
+                  </li>
+                  <li class="nav-item mover">
+                    <a href="#" class="btn btn-outline-dark btn-sm pr-6 imaghover"><i class="bi bi-folder-plus"></i><b> Ingresar</b></a>
+                  </li>
+                  <li class="nav-item mover">
+                    <a href="#contacto" class="btn btn-outline-success btn-sm pr-6 imaghover"><i class="bi bi-person-bounding-box"></i><b> Contacto</b></a>
+                  </li>
+                  <li class="nav-item mover">
+                    <a href="#" class="btn btn-outline-danger btn-sm pr-6 imaghover"><b>Necesita Ayuda</b><i class="bi bi-question-circle-fill"></i></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Búsqueda De Especialista" aria-label="Search">
+                  <button class="btn  btn-outline-success btn-sm pr-6" type="submit"><b> Búsqueda <i class="bi bi-search"></i>Especialistas</b> <i class="bi bi-geo-alt"></i> </button>
+                </form>
               </div>
-              <div class="row container">
-                <div class="col-xl-9 col-lg-9 col-md-8 col-sm-9 col-12">
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Búsqueda De Especialista" aria-label="Search">
-                    <button class="btn  btn-outline-success btn-sm pr-6" type="submit"><b> Búsqueda <i class="bi bi-search"></i>Especialistas</b> <i class="bi bi-explicit"></i> </button>
-                  </form>
-                </div> 
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
-                  <!--Facebook-->
-                      <a href="#" class="text-reset btn btn-primary btn-sm"><i class="bi bi-facebook"></i></a>
-                      <!--Twitter-->
-                      <a href="#" class="text-reset btn btn-info btn-sm"><i class="bi bi-twitter"></i></a>
-                      <!--Instagram-->
-                      <a href="#" class="text-reset btn btn-warning btn-sm"><i class="bi bi-instagram"></i></a>
-                      <!--Pinterest-->
-                      <a href="#" class="text-reset btn btn-danger btn-sm"><i class="bi bi-pinterest btn-sm"></i> </a>
-                </div>
-            </nav>
-            <!--Aqui Termina el Menú de Navegación-->
+            </div>
+          </nav>
+          <!--Aqui Termina el Menú de Navegación-->
         </section>
       <!--Fin Sección menu de navegación -->
       <!--Seccion Articulo Somos -->
       <section id="somos__id" class="container-fluid">
         <article class="article_somos alert alert-ligth">
-          <h1 class="algomas text-left"><i class="bi bi-person-heart"></i> Quiénes Somos</h1>
+          <h1 class="algomas text-left"><i class="bi bi-person-heart"></i> Quiénes Somos  <i class="bi bi-hand-index-thumb"></i></h1>
           <h5 class="text-left">
             <i class="bi bi-plugin"></i><b> Conectamos Especialista con personas que necesitan
               servicios técnicos como: gasfitería, carpintería, electricistas, electrodomésticos, asesores del hogar, técnicos en
@@ -115,19 +113,19 @@
         </div>
       </section>
       <br>
-      <hr>     
+      <hr>
       <!--Contáctanos por Whatsapp-->
       <section class="container-fluid">
         <div class="row alert alert-warning">
-          <div class="col-2 col-sm-1 col-md-2 col-lg-4 col-xl-7"></div>
-          <div class="col-6 col-sm-7 col-md-5 col-lg-3 col-xl-2"><p>Contáctanos También</p></div>
-          <div class="col-4 col-sm-4 col-md-3 col-lg-5 col-xl-3"><a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=56979347247"><i class="bi bi-whatsapp"></i>  Whatsapp</a></div>          
+          <div class=" col-sm-1 col-md-2 col-lg-4 col-xl-6"></div>
+          <div class="col-6 col-sm-7 col-md-5 col-lg-3 col-xl-3"><p>Contáctanos </p></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-5 col-xl-3"><a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=56979347247"><i class="bi bi-whatsapp"></i>  Whatsapp</a></div>
         </div>
-      </section> 
+      </section>
       <!-- Fin de Seccion Galeria de fotos -->
       <!--Sección de Formulario -->
       <section class="row container-fluid fondo_formulario" id="contacto">
-        <article class="col-xl-12">
+        <article class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
               <hr>
               <h5>FORMULARIO DE CONTACTO</h5>
               <hr>
@@ -150,12 +148,31 @@
       </section>
       <!-- Fin de Sección de Formulario -->
       <!-- footer -->
-      <footer class="footer_config navbar navbar-dark bg-dark">
-        <p>Equipo "Home Specialist" Año @ 2022</p>
-      </footer>
+        <footer class="row-container footer_config navbar">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <!--Logo -->
+            <p>
+                <b>Equipo Home Specialist © 2023</b>
+            </p>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 mover">
+              <!--Facebook-->
+                  <a href="#" class="text-reset btn btn-primary btn-sm"><i class="bi bi-facebook"></i></a>
+                  <!--Twitter-->
+                  <a href="#" class="text-reset btn btn-info btn-sm"><i class="bi bi-twitter"></i></a>
+                  <!--Instagram-->
+                  <a href="#" class="text-reset btn btn-warning btn-sm"><i class="bi bi-instagram"></i></a>
+                  <!--Pinterest-->
+                  <a href="#" class="text-reset btn btn-danger btn-sm"><i class="bi bi-pinterest btn-sm"></i> </a>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  col-12 bi bi-calendar2-week  footerfechareloj mover" id="fecha"></div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 bi bi-clock footerfechareloj mover" id="reloj"></div>
+        </footer>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
       <script src="assets/js/contacto.js"></script>
+      <script src="assets/js/script.js"></script>
     </body>
 </html>
 
