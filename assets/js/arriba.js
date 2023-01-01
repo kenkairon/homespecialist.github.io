@@ -13,5 +13,4 @@ $(document).ready(function(){
 			$('.ir-arriba').slideUp(300);
 		}
 	});
-
-}); 
+});
