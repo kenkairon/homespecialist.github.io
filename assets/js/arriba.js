@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('.ir-arriba').click(function(){
-		$('body, html').animate({
+		$('body,card, html').animate({
 			scrollTop: '0px'
 		}, 300);
 	});
@@ -14,3 +14,4 @@ $(document).ready(function(){
 		}
 	});
 });
+
