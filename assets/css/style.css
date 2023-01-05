@@ -216,3 +216,9 @@ footer p{
 .ir-arriba:hover{
     opacity: 0.9;
 }
+/* [class^="col"]:nth-child(even){
+    background-color: teal;
+    }
+    [class^="col"]:nth-child(odd){
+    background-color: orange;
+    } */

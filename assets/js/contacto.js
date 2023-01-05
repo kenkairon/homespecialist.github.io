@@ -23,6 +23,9 @@ function validarFormulario(evento) {
     alert('No has escrito nada en el Mensaje');
     return;
   }
-    alert('FORMULARIO ENVIADO GRACIAS POR CONTACTARNOS');
   this.submit();
+  document.getElementById('mensaje').innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <p><i class="bi bi-envelope-check"></i>Su mensaje ha sido enviado correctamente</p>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>`;
 }
