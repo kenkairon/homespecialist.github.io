@@ -25,7 +25,7 @@ function validarFormulario(evento) {
   }
   this.submit();
   document.getElementById('mensaje').innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
-  <p><i class="bi bi-envelope-check"></i>Su mensaje ha sido enviado correctamente</p>
+  <p><i class="bi bi-envelope-check"></i> Su mensaje ha sido enviado correctamente</p>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>`;
 }
