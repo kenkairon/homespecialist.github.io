@@ -118,6 +118,12 @@ nav{
     height: 100%;
     box-shadow: 1px 1px 1px 1px rgb(254,255,255);
 }
+.colorNav{
+    background-color: #e3f2fd;
+}
+.aBlack {
+    font-weight:bold;
+}
 /* ARTICULO SOMOS */
 .article_somos{
     text-align: center;
