@@ -19,6 +19,7 @@
       <link rel="stylesheet" type="text/css" href="icons/font/bootstrap-icons.css">
       <!--Iconos a través de Cdn de boostrap5 link de los iconos https://icons.getbootstrap.com/-->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+     
     </head>
     <body class="container">
       <!-- Sección menu de navegación -->
@@ -181,11 +182,11 @@
               <hr>
               <h5>FORMULARIO DE CONTACTO</h5>
               <hr>
-          <!-- Trabajamos con la funcion validarFormulario() a través del id= "contacto-form" en js contactos.js-->
+          <!-- Trabajamos con la funcion validarFormulario() a través del id= "contacto-form" en js contactos.js-->          
           <form id="contact-form" onsubmit="return validarFormulario()" action="index.html#contacto" method="GET">
             <div class="mb-6">
               <label class="form-label">Nombre de Usuario</label>
-              <input type="text" class="form-control" id="name"  placeholder="Ingrese el usuario">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Ingrese el usuario">
             </div><br>
             <div class="mb-6">
               <label  class="form-label">Correo</label>
@@ -195,10 +196,15 @@
               <label class="form-label">mensaje</label>
               <textarea class="form-control" id="message" name="message" rows="3"></textarea>
             </div><br>
-            <button class="btn btn-info"><i class="bi bi-folder-symlink-fill"></i> Enviar</button><hr>
+            <input type="submit" id="button" class="btn btn-info" value="Enviar Email" ><hr>
         </form>
         </article>
       </section>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+        emailjs.init('WEj90xjPqOppjbn2d')
+      </script>
+      <script src="assets/js/estructuraContacto.js"></script>
       <!-- Fin de Sección de Formulario de Contacto -->
       <!-- Empieza el footer -->
       <div id="footer"></div>
@@ -216,7 +222,7 @@
       <!-- Botón para hacer aparecer el formulario y agregarle una clase y poner abajo el scroll-->
       <script src="assets/js/contactos.js"></script>
       <!--Lenguaje en Javascript para validar los datos del formulario de Contacto-->
-      <script src="assets/js/contacto.js"></script>
+      <!-- <script src="assets/js/contacto.js"></script> -->
       <!--Lenguaje en Javascript para determinar el dia, fecha y Hora en el footer-->
       <script src="assets/js/diahora.js"></script>
     </body>

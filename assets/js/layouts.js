@@ -57,7 +57,7 @@ const footer = `
             <!--La fecha y la hora que viene del archivo diahora.js con iconos de boostrap5-->
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  col-12 bi bi-calendar2-week  footerfechareloj mover" id="fecha"></div>
             <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 bi bi-clock footerfechareloj mover" id="reloj"></div>
-      </footer>`
+</footer>`
 
 
 document.getElementById("nav").innerHTML = nav;
